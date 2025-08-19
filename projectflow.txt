@@ -6,7 +6,10 @@ Building Pipeline:
 
 Setting up dcv pipeline (without params)
 5> Create dvc.yaml file and add stages to it.
-6> dvc init then do "dvc repro" to test the pipeline automation. (check dvc dag)
+6> 'dvc init' which creates .dvcingore
+    then do "dvc repro" to test the pipeline automation. (check 'dvc dag')
+    dvc repro ceates dvc.lock file which contains md5 for each stage 
+    'dvc dag' shows ur pipeline stage in form of graph
 7> Now git add, commit, push
                          
 Setting up dcv pipeline (with params)

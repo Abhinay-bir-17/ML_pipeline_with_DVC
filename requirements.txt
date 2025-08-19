@@ -5,3 +5,4 @@ WordCloud
 nltk
 scikit-learn
 PyYAML
+dvc
